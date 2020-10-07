@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .quiz-start{background-image:url('HEADER.jpg');}
+    </style>
+</head>
+<body>
+    <input type="hidden" class="result-input" data-result="1" id="resultInput1" value="0">
+    <input type="hidden" class="result-input" data-result="2" id="resultInput2" value="0">
+    <input type="hidden" class="result-input" data-result="3" id="resultInput3" value="0">
+    <input type="hidden" class="result-input" data-result="4" id="resultInput4" value="0">
+
+    <div class="flex quiz-start show">
+        <div class="quiz-start-container">
+            <h3>Judul Quiz Disini, ayo kita mulai</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <p><b>Penulis</b> : Krisna Adi Pradipta</p>
+            <center style="margin-top: 20px;"><a class="btn btn-start">Mulai</a></center>
+        </div>
+    </div>
+    <div class="question flex hide" id="question1">
+        <div class="question-container">
+            <div class="question-text" style="background-color: #ee3322;">
+                <p>Apakah Anda Suka Makan Akhir Ini Atau Minggu  Ini hahahahahah?</p>
+            </div>
+            <div class="answer-container">
+                <div class="answer-text" style="background-color: #ee3322;" data-result="1" data-question="1">
+                    <p>Ya</p>
+                </div>
+                <div class="answer-text" style="background-color: #ee3322;" data-result="2" data-question="1">
+                    <p>Sama Sekali</p>
+                </div>
+                <div class="answer-text" style="background-color: #ee3322;" data-result="3" data-question="1">
+                    <p>Jarang</p>
+                </div>
+                <div class="answer-text" style="background-color: #ee3322;" data-result="4" data-question="1">
+                    <p>Tidak Terlalu Sering Hanya Kalau Lapar Saya Makan, Tidak Terlalu Sering Hanya Kalau Lapar Saya Makan</p>
+                </div>
+                <div class="answer-text" style="background-color: #ee3322;" data-result="3" data-question="1">
+                    <p>Jarang</p>
+                </div>
+                <div class="answer-text" style="background-color: #ee3322;" data-result="4" data-question="1">
+                    <p>Tidak Terlalu Sering Hanya Kalau Lapar Saya Makan, Tidak Terlalu Sering Hanya Kalau Lapar Saya Makan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="question flex hide" id="question2">
+        <div class="question-container">
+            <div class="question-text" style="background-color: #ee3322;">
+                <p>Berapa lama anda melakukan olahraga dalam minggu ini? Apakah sering?</p>
+            </div>
+            <div class="answer-container">
+                <div class="answer-text-with-thumbnail" data-result="4" data-question="2">
+                    <div class="thumbnail-container flex-thumbnail">
+                        <img src="HEADER.jpg" alt="">
+                    </div>
+                    <div class="description-container">
+                        <p>Sangat Sering</p>
+                    </div>
+                </div>
+                <div class="answer-text-with-thumbnail" data-result="3" data-question="2">
+                    <div class="thumbnail-container flex-thumbnail">
+                        <img src="HEADER.jpg" alt="">
+                    </div>
+                    <div class="description-container">
+                        <p>Sering</p>
+                    </div>
+                </div>
+                <div class="answer-text-with-thumbnail" data-result="2" data-question="2">
+                    <div class="thumbnail-container flex-thumbnail">
+                        <img src="HEADER.jpg" alt="">
+                    </div>
+                    <div class="description-container">
+                        <p>Cukup Sering</p>
+                    </div>
+                </div>
+                <div class="answer-text-with-thumbnail" data-result="1" data-question="2">
+                    <div class="thumbnail-container flex-thumbnail">
+                        <img src="HEADER.jpg" alt="">
+                    </div>
+                    <div class="description-container">
+                        <p>Tidak Pernah sama sekali saya berolahraga</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="question flex hide" id="question3">
+        <div class="question-container">
+            <div class="question-text" style="background-color: #ee3322;">
+                <p>Apakah Anda Suka Makan Akhir Ini Atau Minggu  Ini hahahahahah?</p>
+            </div>
+            <div class="answer-container">
+                <div class="answer-text" style="background-color: #ee3322;" data-result="1" data-question="3">
+                    <p>Ya</p>
+                </div>
+                <div class="answer-text" style="background-color: #ee3322;" data-result="2" data-question="3">
+                    <p>Sama Sekali</p>
+                </div>
+                <div class="answer-text" style="background-color: #ee3322;" data-result="3" data-question="3">
+                    <p>Jarang</p>
+                </div>
+                <div class="answer-text" style="background-color: #ee3322;" data-result="4" data-question="3">
+                    <p>Tidak Terlalu Sering Hanya Kalau Lapar Saya Makan, Tidak Terlalu Sering Hanya Kalau Lapar Saya Makan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex result hide" id="result1">
+        <div class="result-container">
+            <h3>Judul Quiz Disini, ayo kita mulai</h3>
+            <div class="result-desc">
+                <div class="desc">
+                    <h2>The Result 1</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem vitae sequi quam veniam ullam corrupti repudiandae, voluptatum nesciunt cum consequuntur voluptate illo fugiat a deleniti eum similique quidem est officiis.</p>
+                </div>
+                <img src="HEADER.jpg" alt="">
+                <div class="share">
+                    <ul class="socmed-share">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <a class="btn btn-retake"><i class="fa fa-refresh"></i> Mulai Lagi</a>
+        </div>
+    </div>
+    <div class="flex result hide" id="result2">
+        <div class="result-container">
+            <h3>Judul Quiz Disini, ayo kita mulai</h3>
+            <div class="result-desc">
+                <div class="desc">
+                    <h2>The Result 2</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem vitae sequi quam veniam ullam corrupti repudiandae, voluptatum nesciunt cum consequuntur voluptate illo fugiat a deleniti eum similique quidem est officiis.</p>
+                </div>
+                <img src="HEADER.jpg" alt="">
+                <div class="share">
+                    <ul class="socmed-share">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a class="btn btn-retake"><i class="fa fa-refresh"></i> Mulai Lagi</a>
+        </div>
+    </div>
+    <div class="flex result hide" id="result3">
+        <div class="result-container">
+            <h3>Judul Quiz Disini, ayo kita mulai</h3>
+            <div class="result-desc">
+                <div class="desc">
+                    <h2>The Result 3</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem vitae sequi quam veniam ullam corrupti repudiandae, voluptatum nesciunt cum consequuntur voluptate illo fugiat a deleniti eum similique quidem est officiis.</p>
+                </div>
+                <img src="HEADER.jpg" alt="">
+                <div class="share">
+                    <ul class="socmed-share">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a class="btn btn-retake"><i class="fa fa-refresh"></i> Mulai Lagi</a>
+        </div>
+    </div>
+    <div class="flex result hide" id="result4">
+        <div class="result-container">
+            <h3>Judul Quiz Disini, ayo kita mulai</h3>
+            <div class="result-desc">
+                <div class="desc">
+                    <h2>The Result 4</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem vitae sequi quam veniam ullam corrupti repudiandae, voluptatum nesciunt cum consequuntur voluptate illo fugiat a deleniti eum similique quidem est officiis.</p>
+                </div>
+                <img src="HEADER.jpg" alt="">
+                <div class="share">
+                    <ul class="socmed-share">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a class="btn btn-retake"><i class="fa fa-refresh"></i> Mulai Lagi</a>
+        </div>
+    </div>
+    <script src="http://localhost:8000/dashboard/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="logic.js"></script>
+    <script>
+        $(window).resize(function() {parent.postMessage(document.body.offsetHeight, '*');});
+        parent.postMessage(document.body.offsetHeight, '*');
+    </script>
+</body>
+</html>
